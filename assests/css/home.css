@@ -42,6 +42,7 @@ nav {
 }
 
 .button {
+    display: flex;
     height: 50px;
     width: 150px;
     position: relative;
@@ -52,6 +53,10 @@ nav {
     border-radius: 30px;
     color: #333;
     transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-txt {
@@ -113,11 +118,25 @@ nav {
 
 .time-content {
     background: rgb(252, 194, 1);
-    background: radial-gradient(circle, rgb(253, 211, 71) 0%, rgb(223, 177, 50) 35%, rgb(202, 155, 45) 65%, rgb(185, 143, 63) 100%);
+    background-image: linear-gradient(to right bottom,
+        #cb9b51 0%,
+        #dfb132 45%,
+        #f6f2c0 50%,
+        #dfb132 55%,
+        #cb9b51 100%);
+    background-size: 400% 400%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+animation: title 5s infinite;
+  background-position: right;
+}
+
+@keyframes title {
+  to {
+    background-position: left
+  }
 }
 
 .timer {
@@ -273,6 +292,7 @@ nav {
     padding: 10px 20px;
     border: 2px solid rgb(255, 171, 61);
     font-size: 14px;
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
