@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background: url('/assests/img/bookingBG.jpg') no-repeat;
+  background-size: auto;
+  background-position: center;
+  color: white;
+}
+
+.heading {
+  background: rgb(252, 194, 1);
+  background-image: linear-gradient(to right,
+      #cb9b51 0%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 100%);
+  background-size: 400% 400%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: title 3s infinite;
+  background-position: right;
+}
+
+@keyframes title {
+  to {
+    background-position: left
+  }
+}
+
+.h1 {
+  letter-spacing: 3px;
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.h4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.h4 span a {
+  text-decoration: none;
+  background: rgb(252, 194, 1);
+  background-image: linear-gradient(to right, #d40404, #f10ccb, #00bbf9, #ffea00, #00bbf9, #f10ccb, #d40404);
+  background-size: 400% 400%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: link 8s ease infinite;
+  background-position: right;
+}
+
+@keyframes link {
+  to {
+    background-position: left
+  }
+}
+
+.backBtn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: white;
+  color: rgb(255, 171, 61);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.backBtn:hover {
+  color: white;
+  border: none;
+  background: rgb(252, 194, 1);
+  background: radial-gradient(circle, rgb(253, 211, 71) 0%, rgb(223, 177, 50) 35%, rgb(202, 155, 45) 65%, rgb(185, 143, 63) 100%);
+  box-shadow: 0 0 30px 5px rgb(202, 155, 45);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.backBtn:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.backBtn::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}

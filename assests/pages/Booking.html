@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <!-- bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assests/css/booking.css">
+</head>
+
+<body>
+    <div class="booking position-absolute top-50 start-50 translate-middle">
+        <div class="align-items-center">
+            <div class="heading">
+            <p class="h1 text-center">Garba Passes Coming Soon!</p>
+        </div>
+            <p class="h4 text-center">Thank you for your incredible enthusiasm for our Garba Night event! We are excited to announce that
+                passes will be available soon.Please stay tuned and check back regularly, or follow us on <span><a href="https://www.instagram.com/avsar__events9?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> Instagram </a></span> for immediate updates on the
+                release. We appreciate your patience and can't wait to celebrate with you!
+                <br><br>
+                Warm Regards,<br>
+                Avsar Events
+            </p>
+            <button id="backBtn" class="backBtn p-2 px-4 position-relative bottom-0 start-50 translate-middle-x rounded-5" onclick="location.href='/index.html'" type="button">
+                Go Back
+            </button>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.getElementById("backBtn").addEventListener("click", function() {
+      window.history.back();
+    });
+  </script>
+
+</html>
