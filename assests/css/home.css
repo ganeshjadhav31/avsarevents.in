@@ -381,7 +381,7 @@ button:active {
     overflow: hidden;
     display: flex;
     scroll-snap-type: x mandatory;
-    width: 90%;
+    width: 88%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -617,7 +617,19 @@ button:active {
 
 
 /* Styles for mobile and tablets */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
+    .slider{
+        width: 100%;
+    }
+
+    .slider-wrapper{
+        width: 100%;
+    }
+
+    .img-list{
+        width: 35%;
+    }
+
     .slider-wrapper .slide-button {
         display: none !important;
     }
