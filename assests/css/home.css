@@ -381,7 +381,7 @@ button:active {
     overflow: hidden;
     display: flex;
     scroll-snap-type: x mandatory;
-    width: 89%;
+    width: 90%;
     margin: 0 auto;
     padding: 0 15px;
     gap: 20px;
