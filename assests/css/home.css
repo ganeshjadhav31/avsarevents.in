@@ -358,10 +358,10 @@ button:active {
 }
 
 .slider {
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     scroll-snap-type: x mandatory;
-    width: 90%;
+    width: 89%;
     margin: 0 auto;
     padding: 0 15px;
     gap: 20px;
@@ -510,13 +510,17 @@ button:active {
     bottom: -10px;
 }
 
+.resposive{
+    width: 80%;
+}
+
 .img-list {
     padding: 22px;
 }
 
 .img-item {
     z-index: 0;
-    width: 350px;
+    width: 307px;
     height: 250px;
     height: auto;
     padding: 5px;
