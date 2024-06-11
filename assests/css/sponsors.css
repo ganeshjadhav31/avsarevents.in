@@ -42,6 +42,7 @@ nav {
 }
 
 .button {
+    display: flex;
     height: 50px;
     width: 150px;
     position: relative;
@@ -52,6 +53,10 @@ nav {
     border-radius: 30px;
     color: #333;
     transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-txt {
