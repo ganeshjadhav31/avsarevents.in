@@ -614,14 +614,8 @@ button:active {
     }
 }
 
-.carousel {
-    position: relative;
-    left: 13%;
-    width: 76%;
-}
-
 .carousel-item img {
-    width: 307px;
+    width: 100%;
     height: auto;
 }
 
@@ -637,13 +631,7 @@ button:active {
 .slide-button {
     background: none;
     border: none;
-    color: #000000;
-}
-
-.slide{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    color: white;
 }
 
 @media screen and (max-width: 800px) {
@@ -654,7 +642,7 @@ button:active {
 
 
 /* Styles for mobile and tablets */
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) { */
     /* .slider{
         width: 100%;
     }
@@ -686,7 +674,7 @@ button:active {
         width: 20%;
     } */
 
-    .carousel {
+    /* .carousel {
         position: relative;
         left: 2%;
         width: 96%;
@@ -728,7 +716,7 @@ button:active {
      width: 135%;   
     }
 }
-
+ */
 
 
 

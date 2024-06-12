@@ -109,6 +109,7 @@ nav {
 
 .card{
     border: none;
+    bottom: 10px;
 }
 
 .team {
