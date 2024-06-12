@@ -38,6 +38,11 @@ nav {
     }
 }
 
+.nav-link{
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     display: flex;
     height: 50px;

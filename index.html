@@ -28,18 +28,19 @@
 
 <body>
   <nav class="navbar col-12 navbar-expand-lg bg-body-tertiary position-fixed">
-    <div class="container-fluid nav-contain d-flex">
-      <div class="position-relative d-flex">
-        <a class="navbar-brand" href="index.html"><img
-            class="position-relative top-0 start-50 translate-middle-x col-lg-2 col-md-2 col-sm-2 col-3"
+    <div class="container-fluid nav-contain d-flex justify-content-center">
+      <div class="position-relative col-lg-3 d-flex">
+        <a class="navbar-brand ms-lg-auto col-md-5 col-6" href="index.html"><img
+            class="position-relative top-0 start-50 translate-middle-x col-lg-6 col-md-3 col-sm-4 col-5"
             src="assests/img/Avsar-logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler col-md-10 col-6 position-relative end-0 collapsed" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+      <div class="navbar-collapse col-8 collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m-auto my-2 my-lg-0 d-flex justify-content-center">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
           </li>
@@ -53,7 +54,7 @@
             <a class="nav-link" href="assests/pages/sponsors.html">SPONSORS</a>
           </li>
         </ul>
-        <a class="button type1 me-auto" href='assests/pages/booking.html'>
+        <a class="button type1 mb-lg-auto m-auto" href="assests/pages/booking.html">
           <span class="btn-txt">Get Pass</span>
         </a>
       </div>
@@ -167,15 +168,6 @@
           </div>
           <a href="assests/pages/gallery.html"><button id="next-slide"
               class="slide-button material-symbols-rounded">chevron_right</button></a>
-
-          <!-- control arrows
-        <div class="prev-btn">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        </div>
-        <div class="next-btn">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        </div> -->
-
         </div>
       </div>
     </div>
@@ -183,11 +175,11 @@
     <div class="slider-container2 container py-4">
       <p class="heading h1">Videos</p>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row gap-0 row-gap-3 grid justify-content-center">
@@ -238,18 +230,22 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>
+  
 
+
+   
+  
   <footer>
     <div class="content">
       <div class="top">
