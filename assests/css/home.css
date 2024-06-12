@@ -650,6 +650,31 @@ button:active {
     }
 }
 
+.carousel {
+    position: relative;
+    left: 13%;
+    width: 76%;
+}
+
+.carousel-item img {
+    width: 307px;
+    height: auto;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+}
+
+.slider-container2 {
+    padding: 20px 0;
+}
+
+.slide-button {
+    background: none;
+    border: none;
+    color: #000000;
+}
 
 
 
