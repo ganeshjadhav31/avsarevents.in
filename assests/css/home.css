@@ -21,6 +21,11 @@ nav {
     z-index: 1;
 }
 
+.nav-link{
+    display: flex;
+    justify-content: center;
+}
+
 .nav-item .active {
     display: flex;
     justify-content: center;
