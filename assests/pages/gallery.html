@@ -15,7 +15,7 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="/assests/css/home.css">
+  <link rel="stylesheet" href="/assests/css/gallery.css">
 
 </head>
 
@@ -59,51 +59,53 @@
 
   <!-- ---------------------------------------------------------------------------------------------------------------------- -->
   <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+  <div class="container">
   <div class="team">
     <span>OUR <span class="ourtm">NAVRATRI</span></span>
   </div>
-  <div class="container">
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-      <!-- <div class="card-info">
-              <h3 class="card-title loading"><span>Yash <span class="yellow-surname">Falke</span></span></h3>
-              <p class="card-description loading">
-                <span class="personal-info">
-                  <span class="info">Graphic Designing Head</span> <br>
-                  Pursuing IT Engineering (VIT Mumbai) <br>
-                  Email: <a href="mailto:'yashfalke77@gmail.com'">yashfalke77@gmail.com</a>
-                </span>
-              </p>
-              <div class="card-mediaIcons">
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="{% url 'viewprofile' 9 %}" class="loading" target="on_blank"><i><img
-                      src=/assests"https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></a></i>
-                <a href="https://www.instagram.com/yashfalke77/" class="loading" target="on_blank"><i
-                    class="fab fa-instagram"></i></a>
-              </div>
-            </div> -->
-    </div>
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-      
-    </div>
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-      
-    </div>
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-      
-    </div>
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-      
-    </div>
-    <div class="card">
-      <div class="card-image loading"><img src="/assests/img/GV.webp" alt="" /></div>
-     
-    </div>
+    <div class="card"> 
+      <div class="grid-img">
+        <div class="column gallery">
+          <img src="/assests/img/gb8.jpeg">
+          <img src="/assests/img/gb2.jpeg">
+          <img src="/assests/img/gb3.jpeg">
+          <img src="/assests/img/gb4.jpeg">
+          <img src="/assests/img/gb5.jpeg">
+          <img src="/assests/img/gb6.jpeg">
+          <img src="/assests/img/gb7.jpeg">
+          <img src="/assests/img/gb2.jpeg">
+        </div>
+        <div class="column gallery">
+          <img src="/assests/img/gb3.jpeg">
+          <img src="/assests/img/gb8.jpeg">
+          <img src="/assests/img/gb2.jpeg">
+          <img src="/assests/img/gb7.jpeg">
+          <img src="/assests/img/gb5.jpeg">
+          <img src="/assests/img/gb4.jpeg">
+          <img src="/assests/img/gb6.jpeg">
+        </div>
+        <div class="column gallery">
+          <img src="/assests/img/gb3.jpeg">
+          <img src="/assests/img/gb4.jpeg">
+          <img src="/assests/img/gb8.jpeg">
+          <img src="/assests/img/gb5.jpeg">
+          <img src="/assests/img/gb6.jpeg">
+          <img src="/assests/img/gb2.jpeg">
+          <img src="/assests/img/gb7.jpeg">
+        </div>
+        <div class="column gallery">
+          <img src="/assests/img/gb8.jpeg">
+          <img src="/assests/img/gb3.jpeg">
+          <img src="/assests/img/gb5.jpeg">
+          <img src="/assests/img/gb2.jpeg">
+          <img src="/assests/img/gb7.jpeg">
+          <img src="/assests/img/gb4.jpeg">
+          <img src="/assests/img/gb6.jpeg">
+        </div>
+      </div>
   </div>
+  <div id="fullpage" onclick="this.style.display='none';"></div>
+</div>
   <!-- ----------------------------------------footer------------------------------------------ -->
   <footer>
     <div class="content">
@@ -126,7 +128,7 @@
   </footer>
   <!-- ---------------------------------------------------------------------------------------- -->
   <!-- -------------------------------------------------------------------------------------------- -->
-  <script src="/assests/javascript/about.js"></script>
+  <script src="/assests/javascript/gallery.js"></script>
 
   <!-- bootstrap-script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
