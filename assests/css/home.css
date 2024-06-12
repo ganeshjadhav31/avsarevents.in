@@ -617,8 +617,8 @@ button:active {
 
 
 /* Styles for mobile and tablets */
-@media only screen and (max-width: 1024px) {
-    .slider{
+@media screen and (max-width: 1440px) {
+    /* .slider{
         width: 100%;
     }
 
@@ -647,6 +647,12 @@ button:active {
 
     .slider-scrollbar .scrollbar-thumb {
         width: 20%;
+    } */
+
+    .carousel {
+        position: relative;
+        left: 2%;
+        width: 96%;
     }
 }
 
