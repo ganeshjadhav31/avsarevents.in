@@ -299,7 +299,7 @@ nav {
 .venue {
     background-image: url("/img/map.gif");
     background-size: cover;
-    height: 117vh;
+    height: 100vh;
     position: relative;
     top: 55px;
 }
@@ -320,7 +320,7 @@ nav {
     width: 35%;
     height: 40%;
     position: relative;
-    top: 35%;
+    top: 5%;
     left: 32%;
     border-radius: 25px;
     /* animation: spin 2.5s infinite linear;
@@ -595,8 +595,8 @@ footer .bottom-details .bottom_text {
     }
 
     .content .top .media-icons a {
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
         font-size: 14px;
         line-height: 35px;
     }
