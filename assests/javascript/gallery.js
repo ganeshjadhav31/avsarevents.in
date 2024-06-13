@@ -7,4 +7,4 @@ imgs.forEach(img => {
     fullPage.style.backgroundImage = 'url(' + img.src + ')';
     fullPage.style.display = 'block';
   });
-});
+}); 

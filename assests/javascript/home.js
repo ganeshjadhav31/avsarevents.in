@@ -21,7 +21,7 @@ var target_mili_sec = new Date("Oct 03, 2024 24:00:0").getTime();
     $('.responsive').slick({
         dots: true,
         prevArrow: $('.prev'),
-        nextArrow: $('.next'),
+        nextArrow: $('.next'),       
         infinite: false,
         speed: 300,
         slidesToShow: 4,
@@ -42,7 +42,7 @@ var target_mili_sec = new Date("Oct 03, 2024 24:00:0").getTime();
         slidesToShow: 2,
         slidesToScroll: 2
         }
-        },
+        },  
         {
         breakpoint: 480,
         settings: {
