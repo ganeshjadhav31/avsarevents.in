@@ -12,6 +12,11 @@ body {
     box-sizing: border-box;
 }
 
+.container-background {
+    background: rgb(255, 193, 35);
+    background: linear-gradient(0deg, rgba(255, 193, 35, 1) 0%, rgba(19, 184, 236, 1) 30%, rgba(190, 38, 235, 1) 60%, rgba(212, 3, 3, 1) 85%, rgba(0, 0, 0, 1) 100%);
+}
+
 nav {
     position: fixed;
     top: 0%;
@@ -113,11 +118,11 @@ nav {
 .about-gif {
     position: relative;
     left: 0%;
-    top: -40px;
+    top: 51px;
 }
 
 .about-gif img {
-    width: 99vw;
+    width: 99.1vw;
 }
 
 .company {
@@ -131,12 +136,13 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    color: white;
 }
 
 .name {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 84px;
     font-size: 45PX;
     background: -webkit-linear-gradient(350deg, #d40404, #f10ccb, #00bbf9, #ffea00);
     -webkit-background-clip: text;
@@ -202,11 +208,10 @@ nav {
 
 /* --------------------Our Team--------------------------- */
 
-.team,
-.sponsor {
+.team{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .team span {
@@ -242,7 +247,7 @@ nav {
 }
 
 .card-img {
-    width: 190px;
+    width: 203px;
     max-height: 100vh;
     overflow: hidden;
     color: #000;
@@ -252,7 +257,7 @@ nav {
     margin-top: .4rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #ed06ac;
+    color: #220cc9;
 }
 
 .head-name {
@@ -268,6 +273,12 @@ nav {
 }
 
 /* --------------------Our Sponsor--------------------------- */
+.sponsor {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
 .sponsor span {
     font-size: 2.5rem;
     font-weight: bold;
@@ -277,7 +288,7 @@ nav {
 
 .sponsor span .ourspons {
     border-bottom: none;
-    color: #0ed5f7;
+    color: #f7d60e;
 }
 
 .spons-card span {
@@ -331,7 +342,7 @@ nav {
         /* conic-gradient(from var(--bg-angle) in oklch longer hue,
             oklch(0.85 0.37 0) 0 0) border-box; */
     /* extends to outer border edges */
-    /* border: 10px solid transparent; */ 
+    border: 2px solid #000; 
     /* &:hover {
         animation-play-state: running;
       } */
@@ -381,7 +392,7 @@ footer .content .top {
 .content .top .media-icons a {
     height: 40px;
     width: 40px;
-    margin: 0 8px;
+    margin: 0 10px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
