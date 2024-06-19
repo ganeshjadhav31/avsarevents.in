@@ -228,7 +228,7 @@ nav {
 
 .teamcontainer,
 .sponscontainer {
-    width: 70%;
+    width: 72%;
     margin: 15px auto;
     margin-top: 46px;
     display: flex;
@@ -247,7 +247,7 @@ nav {
 }
 
 .card-img {
-    width: 203px;
+    width: 212px;
     max-height: 100vh;
     overflow: hidden;
     color: #000;
