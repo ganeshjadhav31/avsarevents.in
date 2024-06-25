@@ -617,6 +617,11 @@ footer .bottom-details .bottom_text {
         text-align: center;
     }
 
+    .about-gif img {
+        width: 103%;
+        margin: -91px 0 41px;
+    }
+
     footer::before {
         top: 145px;
     }
