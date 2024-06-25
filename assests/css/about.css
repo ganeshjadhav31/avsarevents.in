@@ -605,6 +605,18 @@ footer .bottom-details .bottom_text {
         margin-bottom: 59%;
     }
 
+    .company-info span {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .company-info p {
+        margin-top: 6%;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
     footer::before {
         top: 145px;
     }
