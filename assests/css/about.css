@@ -622,6 +622,28 @@ footer .bottom-details .bottom_text {
         margin: -91px 0 41px;
     }
 
+    .team span{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .teamcontainer{
+        width: 100%;
+        margin: 15px auto;
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-img {
+        width: 150px;
+        max-height: 100vh;
+        overflow: hidden;
+        color: #000;
+    }
+
     footer::before {
         top: 145px;
     }
