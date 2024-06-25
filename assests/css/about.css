@@ -554,7 +554,7 @@ footer .bottom-details .bottom_text {
         display: flex;
         justify-content: center;
         margin-top: 98px;
-        font-size: 34PX;
+        font-size: 32PX;
     }
 
     footer {
@@ -587,6 +587,24 @@ footer .bottom-details .bottom_text {
 } 
 
 @media (max-width: 520px) {
+    
+    h1{
+        font-size: 34PX;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 98px 5px;
+        font-weight: 700;
+    }
+
+    .img .about-img {
+        width: 84%;
+        margin: -3rem 0rem 0rem 4rem;
+        margin-bottom: 59%;
+    }
+
     footer::before {
         top: 145px;
     }
