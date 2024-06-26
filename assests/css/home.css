@@ -586,6 +586,9 @@ button:active {
 }
 
 /* Custom Arrow */
+.carousel-item{
+    padding: 29px;
+}
 .prev-btn {
     z-index: 15;
     color: #000000;
