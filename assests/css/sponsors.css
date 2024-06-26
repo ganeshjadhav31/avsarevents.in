@@ -315,6 +315,10 @@ footer .content .top {
     background: #fff;
 }
 
+.top .media-icons a:nth-child(3) {
+    background: #1ed760;
+}
+
 footer .content .link-boxes {
     width: 100%;
     display: flex;
