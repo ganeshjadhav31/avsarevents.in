@@ -805,6 +805,12 @@ footer .content .top {
     background: #1ed760;
 }
 
+.top .media-icons a:nth-child(3):hover {
+    color: #1ed760;
+    background: #fff;
+}
+
+
 footer .content .link-boxes {
     width: 100%;
     display: flex;
