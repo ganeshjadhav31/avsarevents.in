@@ -512,6 +512,54 @@ footer .bottom-details .bottom_text {
 
 /* ------------------------------------------media-footer------------------------------------------- */
 @media (max-width: 900px) {
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 98px 5px;
+        font-size: 44PX;
+        font-weight: 700;
+    }
+
+    .img .about-img {
+        width: 70%;
+        margin: -3rem 0rem 0rem 10rem;
+        margin-bottom: 59%;
+    }
+
+    .company-info span {
+        display: inline;
+        width: 96%;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .company-info p {
+        margin-top: 3%;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+    .about-gif img {
+        width: 102.1vw;
+        margin: -91px 0 37px;
+    }
+
+    .team span{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .teamcontainer{
+        width: 100%;
+        margin: 15px auto;
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
     .company-info {
         width: 100%;
         margin-right: 0rem;
@@ -520,12 +568,6 @@ footer .bottom-details .bottom_text {
 
     .company-info p {
         margin-right: 2rem;
-        text-align: center;
-    }
-
-    .company-info span {
-        font-size: 1.7rem;
-        font-weight: bold;
         text-align: center;
     }
 
@@ -565,6 +607,7 @@ footer .bottom-details .bottom_text {
         margin-top: 98px;
         font-size: 32PX;
     }
+
 
     footer {
         position: relative;
