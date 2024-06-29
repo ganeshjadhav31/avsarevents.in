@@ -571,6 +571,10 @@ footer .bottom-details .bottom_text {
         text-align: center;
     }
 
+    footer {
+        width: 102.3%;
+    }
+
     .team {
         display: flex;
         justify-content: center;
