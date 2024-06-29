@@ -611,6 +611,8 @@ footer .bottom-details .bottom_text {
     }
 
     .company-info span {
+        display: inline;
+        width: 98%;
         font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
@@ -641,7 +643,7 @@ footer .bottom-details .bottom_text {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     footer {
         background: #000;
         width: 102.2%;
