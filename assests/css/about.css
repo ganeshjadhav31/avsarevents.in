@@ -12,6 +12,11 @@ body {
     box-sizing: border-box;
 }
 
+/* .container-background {
+    background: rgb(255, 193, 35);
+    background: linear-gradient(0deg, rgba(255, 193, 35, 1) 0%, rgba(19, 184, 236, 1) 30%, rgba(190, 38, 235, 1) 60%, rgba(212, 3, 3, 1) 85%, rgba(0, 0, 0, 1) 100%);
+} */
+
 nav {
     position: fixed;
     top: 0%;
@@ -113,11 +118,11 @@ nav {
 .about-gif {
     position: relative;
     left: 0%;
-    top: -40px;
+    top: 51px;
 }
 
 .about-gif img {
-    width: 99vw;
+    width: 99.1vw;
 }
 
 .company {
@@ -131,12 +136,13 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    color: black;
 }
 
 .name {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 84px;
     font-size: 45PX;
     background: -webkit-linear-gradient(350deg, #d40404, #f10ccb, #00bbf9, #ffea00);
     -webkit-background-clip: text;
@@ -202,11 +208,10 @@ nav {
 
 /* --------------------Our Team--------------------------- */
 
-.team,
-.sponsor {
+.team{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .team span {
@@ -223,7 +228,7 @@ nav {
 
 .teamcontainer,
 .sponscontainer {
-    width: 70%;
+    width: 72%;
     margin: 15px auto;
     margin-top: 46px;
     display: flex;
@@ -242,7 +247,7 @@ nav {
 }
 
 .card-img {
-    width: 190px;
+    width: 212px;
     max-height: 100vh;
     overflow: hidden;
     color: #000;
@@ -252,7 +257,7 @@ nav {
     margin-top: .4rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #ed06ac;
+    color: #220cc9;
 }
 
 .head-name {
@@ -268,6 +273,12 @@ nav {
 }
 
 /* --------------------Our Sponsor--------------------------- */
+.sponsor {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
 .sponsor span {
     font-size: 2.5rem;
     font-weight: bold;
@@ -277,7 +288,7 @@ nav {
 
 .sponsor span .ourspons {
     border-bottom: none;
-    color: #0ed5f7;
+    color: #f7d60e;
 }
 
 .spons-card span {
@@ -295,53 +306,6 @@ nav {
     border-radius: 50%;
 }
 
-/* ------------------------------footer---------------------------------------- */
-.venue {
-    background-image: url("/img/map.gif");
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    top: 55px;
-}
-
-/* @property --bg-angle {
-    inherits: false;
-    initial-value: 0deg;
-    syntax: "<angle>";
-}
-
-@keyframes spin {
-    to {
-        --bg-angle: 360deg;
-    }
-} */
-
-.venue iframe {
-    width: 35%;
-    height: 40%;
-    position: relative;
-    top: 5%;
-    left: 32%;
-    border-radius: 25px;
-    /* animation: spin 2.5s infinite linear;
-    background: linear-gradient(to bottom,
-            oklch(0.1 0.2 240 / 0.95),
-            oklch(0.1 0.2 240 / 0.95)) padding-box,
-        /* ends at inner border edges */
-        /* conic-gradient(from var(--bg-angle) in oklch longer hue,
-            oklch(0.85 0.37 0) 0 0) border-box; */
-    /* extends to outer border edges */
-    /* border: 10px solid transparent; */ 
-    /* &:hover {
-        animation-play-state: running;
-      } */
-}
-
-/* @keyframes spin {
-    to {
-        --bg-angle: 360deg;
-    }
-} */
 
 /* ------------------------------footer---------------------------------------- */
 footer {
@@ -381,7 +345,7 @@ footer .content .top {
 .content .top .media-icons a {
     height: 40px;
     width: 40px;
-    margin: 0 8px;
+    margin: 0 10px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
@@ -417,6 +381,15 @@ footer .content .top {
 
 .top .media-icons a:nth-child(2):hover {
     color: #e1306c;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(3) {
+    background: #1ed760;
+}
+
+.top .media-icons a:nth-child(3):hover {
+    color: #1ed760;
     background: #fff;
 }
 
@@ -539,6 +512,54 @@ footer .bottom-details .bottom_text {
 
 /* ------------------------------------------media-footer------------------------------------------- */
 @media (max-width: 900px) {
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 98px 5px;
+        font-size: 44PX;
+        font-weight: 700;
+    }
+
+    .img .about-img {
+        width: 70%;
+        margin: -3rem 0rem 0rem 10rem;
+        margin-bottom: 59%;
+    }
+
+    .company-info span {
+        display: inline;
+        width: 96%;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .company-info p {
+        margin-top: 3%;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+    .about-gif img {
+        width: 102.1vw;
+        margin: -91px 0 37px;
+    }
+
+    .team span{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .teamcontainer{
+        width: 100%;
+        margin: 15px auto;
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
     .company-info {
         width: 100%;
         margin-right: 0rem;
@@ -550,10 +571,8 @@ footer .bottom-details .bottom_text {
         text-align: center;
     }
 
-    .company-info span {
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
+    footer {
+        width: 102.3%;
     }
 
     .team {
@@ -586,6 +605,14 @@ footer .bottom-details .bottom_text {
 }
 
 @media (max-width: 700px) {
+    .name{
+        display: flex;
+        justify-content: center;
+        margin-top: 98px;
+        font-size: 32PX;
+    }
+
+
     footer {
         position: relative;
     }
@@ -615,7 +642,126 @@ footer .bottom-details .bottom_text {
     }
 } 
 
+@media (max-width: 768px) {
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 98px 5px;
+        font-size: 44PX;
+        font-weight: 700;
+    }
+
+    .img .about-img {
+        width: 70%;
+        margin: -3rem 0rem 0rem 10rem;
+        margin-bottom: 59%;
+    }
+
+    .company-info span {
+        display: inline;
+        width: 98%;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .company-info p {
+        margin-top: 3%;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+    .about-gif img {
+        width: 102.1vw;
+        margin: -91px 0 37px;
+    }
+
+    .team span{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .teamcontainer{
+        width: 100%;
+        margin: 15px auto;
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer {
+        background: #000;
+        width: 102.2%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}
+
 @media (max-width: 520px) {
+    
+    h1{
+        font-size: 34PX;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 98px 5px;
+        font-weight: 700;
+    }
+
+    .img .about-img {
+        width: 84%;
+        margin: -3rem 0rem 0rem 4rem;
+        margin-bottom: 59%;
+    }
+
+    .company-info span {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .company-info p {
+        margin-top: 6%;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+    .about-gif img {
+        width: 104%;
+        margin: -91px 0 41px;
+    }
+
+    .team span{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .teamcontainer{
+        width: 100%;
+        margin: 15px auto;
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-img {
+        width: 150px;
+        max-height: 100vh;
+        overflow: hidden;
+        color: #000;
+    }
+
+    footer {
+        width: 104%;
+    }
+
     footer::before {
         top: 145px;
     }

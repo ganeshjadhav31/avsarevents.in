@@ -586,6 +586,10 @@ button:active {
 }
 
 /* Custom Arrow */
+.carousel-item{
+    padding: 29px;
+}
+
 .prev-btn {
     z-index: 15;
     color: #000000;
@@ -784,7 +788,9 @@ footer .content .top {
 }
 
 .top .media-icons a:nth-child(2) {
-    background: #e1306c;
+    background: #FD1D1D;
+    background: linear-gradient(48deg, #f9ce34, #fa7e1e, #d62976, #962fbf);
+    background-size: 40px;
     border-radius: 33%;
     height: 40px;
     width: 40px;
@@ -794,6 +800,16 @@ footer .content .top {
     color: #e1306c;
     background: #fff;
 }
+
+.top .media-icons a:nth-child(3) {
+    background: #1ed760;
+}
+
+.top .media-icons a:nth-child(3):hover {
+    color: #1ed760;
+    background: #fff;
+}
+
 
 footer .content .link-boxes {
     width: 100%;
@@ -970,8 +986,8 @@ footer .bottom-details .bottom_text {
     }
 
     .content .top .media-icons a {
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
         font-size: 14px;
         line-height: 35px;
     }
