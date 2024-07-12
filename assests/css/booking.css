@@ -5,6 +5,9 @@ body {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+
+.container-fluid{
   background: url('/assests/img/bookingBG.jpg') no-repeat;
   background-size: auto;
   background-position: center;
