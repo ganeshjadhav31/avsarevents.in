@@ -9,6 +9,8 @@ body {
   background-size: auto;
   background-position: center;
   color: white;
+  width: 100vw;
+  height: 100vh;
 }
 
 .heading {
