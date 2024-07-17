@@ -487,9 +487,17 @@ footer .bottom-details .bottom_text {
         width: 40%;
         margin-top: 10px;
     }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .spons-para {
+        width: 84%;
+    }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .col-md-6 {
         flex: 0 0 auto;
         width: 58%;
