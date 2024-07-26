@@ -248,8 +248,9 @@ nav {
 
 .card-img {
     width: 212px;
-    max-height: 100vh;
+    max-height: 300px;
     overflow: hidden;
+    border-radius: 25px;
     color: #000;
 }
 
