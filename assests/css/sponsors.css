@@ -107,10 +107,9 @@ nav {
 }
 /* ------------------------------sponsors---------------------------------------- */
 .sponsor1 {
-    margin-top: 4%;
     color: white;
     text-align: center;
-    background: #69b9b6;
+    background: #000000;
     }
 
 .sponsor2 {
@@ -160,21 +159,22 @@ background: #d10069;
 }
 
 .sponsor8 {
+    margin-top: 4%;
     color: white;
     text-align: center;
-    background: #000000;
+    background: #ffffff;
 }
 
 .sponsor9 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background: #6d0003;
+    background: #ffffff;
 }
 
 .sponsor10 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background: #e34327;
+    background: #ffffff;
 }
 
 .s1, .s2{
