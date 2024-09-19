@@ -106,47 +106,57 @@ nav {
     box-shadow: none;
 }
 /* ------------------------------sponsors---------------------------------------- */
-.sponsor1{
+.sponsor1 {
     margin-top: 4%;
-    color: black;
-    background: #fefefe;
+    color: white;
     text-align: center;
-}
+    background: #69b9b6;
+    }
 
 .sponsor2 {
-color: white;
-text-align: center;
-background: #113b53;
+    color: white;
+    text-align: center;
+    background: #00349c;
 }
 
 .sponsor3 {
-color: white;
-text-align: center;
-background: #000;
+    color: black;
+    text-align: center;
+    background: #ffd21d;
+}
+
+.sponsor3 .text-black{
+    color: black;
+    font-family: "Merienda", cursive;
+    font-weight: 800;
+    text-align: center;
+    word-spacing: 4px;
+    margin-bottom: 25px;
+    font-size: 40px;
 }
 
 .sponsor4 {
     color: white;
     text-align: center;
-    background: #693570;
-    }
+    background: #0b6dff;
+}
 
 .sponsor5 {
     color: black;
+    background: #fefefe;
     text-align: center;
-    background: #fafafa;
 }
 
 .sponsor6 {
-    color: white;
-    text-align: center;
-    background: #8c8c8c;
+color: white;
+text-align: center;
+background: #113b53;
 }
 
 .sponsor7 {
-    color: black;
-    text-align: center;
-    background: #ffd21d;
+color: white;
+text-align: center;
+background: #d10069;
 }
 
 .sponsor8 {
