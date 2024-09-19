@@ -177,6 +177,19 @@ background: #d10069;
     background: #ffffff;
 }
 
+.sponsor11 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: #ffffff;
+}
+
+.sponsor13 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: #292929;
+}
+
+
 .s1, .s2{
     display: flex;
     justify-content: center;
