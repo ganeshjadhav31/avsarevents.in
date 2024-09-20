@@ -160,7 +160,7 @@ background: #d10069;
 
 .sponsor8 {
     margin-top: 4%;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     background: #ffffff;
 }
@@ -183,10 +183,22 @@ background: #d10069;
     background: #ffffff;
 }
 
+.sponsor12 {
+    text-align: center;
+}
+
 .sponsor13 {
     color: rgb(255, 255, 255);
     text-align: center;
     background: #292929;
+}
+
+.sponsor14 {
+      text-align: center;
+}
+
+.sponsor15 {
+    text-align: center;
 }
 
 .sponsor16 {
@@ -211,6 +223,15 @@ background: #d10069;
     font-size: 40px;
 }
 
+.sponsor18 {
+    text-align: center;
+}
+
+.sponsor19 {
+    color: black;
+    text-align: center;
+    background: #ffffff;
+}
 
 .s1, .s2{
     display: flex;
