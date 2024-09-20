@@ -195,6 +195,22 @@ background: #d10069;
     background: #01adef;
 }
 
+.sponsor17 {
+    color: black;
+    text-align: center;
+    background: #f1c710;
+}
+
+.sponsor17 .text-black{
+    color: black;
+    font-family: "Merienda", cursive;
+    font-weight: 800;
+    text-align: center;
+    word-spacing: 4px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
 
 .s1, .s2{
     display: flex;
