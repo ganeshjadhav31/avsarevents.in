@@ -233,7 +233,7 @@ background: #d10069;
     background: #bcb5a5;
 }
 
-.container{
+.spons-container{
     padding-top: 9rem;
 } 
 
@@ -241,26 +241,6 @@ background: #d10069;
     border: none;
     bottom: 10px;
 }
-
-.team {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 20px;
-}
-
-.team span {
-    font-size: 2.5rem;
-    font-weight: bold;
-    border-bottom: 4px solid #ff0081;
-    color: #f31c3c;
-}
-
-.team span .ourtm {
-    border-bottom: none;
-    color: #f7d00e;
-}
-
 
 .grid-img {
     display: flex;
