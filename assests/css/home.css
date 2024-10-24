@@ -586,8 +586,12 @@ button:active {
 }
 
 /* Custom Arrow */
-.carousel-item{
+.carousel-item, .carousel-item2{
     padding: 29px;
+}
+
+.carousel-item2{
+    width: 136%;
 }
 
 .prev-btn {
@@ -618,7 +622,7 @@ button:active {
     }
 }
 
-.carousel-item img {
+.carousel-item, .carousel-item2 img {
     width: 100%;
     height: auto;
 } 
